@@ -47,7 +47,6 @@ p {
 
 /* header selectors */
 header .container {
-    /* background-color: aqua; */
     padding: 16px;
 }
 
@@ -64,7 +63,6 @@ header .container {
 .flexbox {
     display: flex;
     justify-content: left;
-    /* border: 1px solid #e0e0e0; */
     padding-left: 10px;
 }
 
@@ -81,4 +79,9 @@ header .container {
     height: 22.12px;
     margin-right: 20px;
     margin-top: 21px;
+}
+
+.icon-img:hover {
+    cursor: pointer;
+    opacity: 0.7;
 }
