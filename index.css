@@ -23,6 +23,8 @@ p {
     margin-top: 12px;
 }
 
+/* Selectors */
+
 .last-line {
     margin-bottom: 16px;
 }
@@ -38,11 +40,18 @@ p {
     box-sizing: border-box;
 }
 
+
 .avatar {
     width: 34px;
     height: 34px;
     border-radius: 20px;
     margin: auto 0;
+}
+
+.space {
+    height: 30px;
+    width: 100%;
+    background-color: #f2f2f2;
 }
 
 /* header selectors */
@@ -60,6 +69,12 @@ header .container {
 }
 
 /* Section related selectors */
+section .container:hover {
+    border-bottom: 2px solid #252525;
+    border-right: 2px solid #252525;
+}
+
+
 .flexbox {
     display: flex;
     justify-content: left;
